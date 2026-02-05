@@ -1,10 +1,8 @@
 # Environments
 .env
-.env.prod
 *.env
 
 # Deploy scripts with local IPs
-deploy.sh
 connect_prod.sh
 
 # System specific

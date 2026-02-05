@@ -25,6 +25,7 @@ services:
     environment:
       PMA_HOST: db
       UPLOAD_LIMIT: 1024M
+      PMA_ABSOLUTE_URI: http://localhost:8082/
     ports:
       - "127.0.0.1:8080:80"
 
