@@ -1,0 +1,19 @@
+[DEFAULT]
+# Banir IPs por 1 hora (3600 segundos)
+bantime = 3600
+
+# Se falhar 5 vezes...
+maxretry = 5
+
+# ...dentro de uma janela de 10 minutos
+findtime = 600
+
+# Não banir o localhost
+ignoreip = 127.0.0.1/8 ::1
+
+[sshd]
+enabled = true
+port = ssh
+filter = sshd
+logpath = /var/log/auth.log
+backend = systemd
