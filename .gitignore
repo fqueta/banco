@@ -8,3 +8,4 @@ connect_prod.sh
 # System specific
 .DS_Store
 SETUP_SSH.md
+docker-compose.yml
